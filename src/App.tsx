@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { Route,Routes } from 'react-router-dom'
+
 import { RootLayout } from '@/components/layout/RootLayout'
 import { HomePage } from '@/pages/HomePage'
 import { NotFoundPage } from '@/pages/NotFoundPage'

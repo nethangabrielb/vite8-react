@@ -1,17 +1,17 @@
-import { useTheme } from '@/lib/theme'
-import { Button } from './Button'
+import { MotionButton } from "@/components/ui/MotionButton";
+import { useTheme } from "@/lib/theme";
 
 export function ThemeToggle() {
-  const { resolvedTheme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme();
 
   return (
-    <Button
+    <MotionButton
       variant="ghost"
       size="sm"
       aria-label="Toggle theme"
-      onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
     >
-      {resolvedTheme === 'dark' ? '☀️' : '🌙'}
-    </Button>
-  )
+      {resolvedTheme === "dark" ? "☀️" : "🌙"}
+    </MotionButton>
+  );
 }

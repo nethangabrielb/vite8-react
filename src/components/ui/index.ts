@@ -1,5 +1,5 @@
-export { Button } from './Button'
-export { Input } from './Input'
-export { Textarea } from './Textarea'
-export { Reveal } from './Reveal'
-export { ThemeToggle } from './ThemeToggle'
+export { Input } from "./Input";
+export { Button } from "./MotionButton";
+export { Reveal } from "./Reveal";
+export { Textarea } from "./Textarea";
+export { ThemeToggle } from "./ThemeToggle";

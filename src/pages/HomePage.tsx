@@ -1,5 +1,5 @@
-import { Reveal } from '@/components/ui/Reveal'
-import { Button } from '@/components/ui/Button'
+import { MotionButton } from "@/components/ui/MotionButton";
+import { Reveal } from "@/components/ui/Reveal";
 
 export function HomePage() {
   return (
@@ -16,10 +16,10 @@ export function HomePage() {
       </Reveal>
       <Reveal delay={0.2}>
         <div className="mt-8 flex gap-3">
-          <Button>View Projects</Button>
-          <Button variant="secondary">Contact Me</Button>
+          <MotionButton>View Projects</MotionButton>
+          <MotionButton variant="secondary">Contact Me</MotionButton>
         </div>
       </Reveal>
     </section>
-  )
+  );
 }
